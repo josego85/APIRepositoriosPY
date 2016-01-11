@@ -1,0 +1,9 @@
+{
+    "name": "APIRepositoriosPY",
+    "description": "Acceder a la API de RepositoriosPY",
+    "author": "josego <josego@proyectosbeta.net>",
+    "dependencies": {
+        "express": ">= 1.2.0",
+        "mysql": ">= 2.10.0 "
+    }
+}

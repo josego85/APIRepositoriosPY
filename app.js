@@ -14,5 +14,5 @@ app.use('/', router);
 router.get('/personas', require('./routes/personas'));
 router.get('/personas/:persona_id', require('./routes/personas'));
 app.get('*', function(req, res) {
-    res.sendfile('./index.html');       // Carga única de la vista.
+    res.sendFile(__dirname + '/index.html');       // Carga única de la vista.
 });
